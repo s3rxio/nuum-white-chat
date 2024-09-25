@@ -1,0 +1,63 @@
+/* :root {
+    --color-layer-background: #fff !important;
+    --color-text-primary: #000000;
+} */
+
+.sticker {
+    width: 18.5px !important;
+    height: 18.5px !important;
+}
+
+.message__wrapper {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.message__body-text {
+    padding-left: 0px !important;
+}
+
+.single-avatar__name, .message__header-avatar {
+    display: none !important;
+}
+
+.message__header-avatar {
+    min-width: 0px !important;
+    width: 1px !important;
+}
+
+#lib-messages-wrapper {
+    padding: 0px !important;
+}
+
+.message:hover .message__header-actions {
+    display: none !important;
+}
+
+.message__header-username {
+    padding: 0 !important;
+}
+
+.message:hover .message__header .header-username__badge, .message:hover .message__header .header-username__donate-message {
+    display: block !important;
+}
+
+.header-username__link::after {
+    content: ':';
+}
+
+.user_ping {
+    background-color: #008521;
+}
+
+.moder_ping {
+    background-color: #a30016;
+}
+
+.url_color_change {
+    color: #0944e7;
+}

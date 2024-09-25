@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Nuum fixer",
+    "version": "1.0",
+    "description": "Фиксит убогий чат нума",
+    "icons": {
+        "48": "icon.png"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "content_scripts": [
+        {
+        "matches": ["https://nuum.ru/channel/*/streams/chat"],
+        "css": ["css.css"],
+        "js": ["main.mjs"]
+        }
+    ]
+  }
